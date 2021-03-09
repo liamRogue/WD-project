@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+.social{
+    float:right;
+
+}
+header{
+background-color: #666;
+background-image: url("cuisine.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+text-align: center;
+font-size: 35px;
+color: white;
+}
+
+#logo~img{
+    float: right;
+    height:5px;
+    width:5px;
+    border-radius: 50%;
+    margin:auto;
+   }
+   #heading{
+        text-align: center;
+        color:rgb(37, 35, 35);
+        font-size:35px; 
+        font-weight: bolder; 
+        margin-top: 20px; 
+   }
+.topnav {
+    overflow: auto;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #0f5291;
+    color: white;
+  }
+section{
+    margin-left: 60px;
+    padding:0px 10px;
+  
+   
+}   
+.QuickSearchContainer{
+    margin-left:5px;
+    margin-top:50px;
+}
+
+#QuickHeading{
+    color:#192f60;
+    font-size:30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align:left
+}
+
+#QuickSubHeading{
+    color:gray;
+    font-size:20px;
+    font-weight:normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height:.01;
+    margin-top:15px;
+    position: absolute;
+    text-align:left
+}
+.tileContainer{
+    height:180px;
+    width:28%;
+    margin-top:50px;
+    margin-bottom:20px;
+    box-shadow: 0px 3px 15px black;
+    display: inline-block;
+    margin-right:5%;
+    transition: transform 1s;
+}
+
+.tileComponent1{
+    width:46%;
+    float:left;
+}
+.tileComponent2{
+    width:46%;
+    float: left;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.componentHeading{
+    text-align:left;
+    color:#192f60;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:18px;
+    line-height: 1;
+}
+
+.tileContainer:hover{
+    transform: scale(1.2);
+}
+
+.clearfix{
+        overflow: auto;
+    }
+
+
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
